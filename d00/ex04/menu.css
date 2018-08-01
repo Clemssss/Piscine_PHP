@@ -1,0 +1,126 @@
+body {
+    font-family: "Comic Sans Ms", cursive, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+nav > ul > li > a {
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.submenu li:hover a {
+    color: #EEE;
+    font-weight: bold;
+}
+
+.Menus:hover {
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.Menus .submenu {
+    background-color: RGB(230, 100, 40);
+}
+
+.Menus .submenu li:hover {
+    background-color: RGB(210, 77, 60);
+}
+
+.Sandwichs:hover {
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.Sandwichs .submenu {
+    background-color: RGB(000, 160, 240);
+}
+
+.Sandwichs .submenu li:hover {
+    background-color: RGB(000, 115, 200);
+}
+
+.Boissons:hover {
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.Boissons .submenu {
+    background-color: RGB(251, 216, 99);
+}
+
+.Boissons .submenu li:hover {
+    background-color: RGB(200, 165, 75);
+}
+
+.Desserts:hover {
+    border-top: 5px solid #00cc00;
+    background-color: RGBa(0, 204, 0, 0.15);
+}
+
+.Desserts .submenu {
+    background-color: RGB(0, 204, 0);
+}
+
+.Desserts .submenu li:hover {
+    background-color: RGB(0, 153, 0);
+}
